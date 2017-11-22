@@ -1,6 +1,6 @@
 /*
 Query to back up databases.
-Used it for test before applying it to sqlcmd
+I used it to test sqlcmd before applying it to batch.
 You don't need extra permissions in C:\Program Files\Microsoft SQL Server
 */
 BACKUP DATABASE DBNAME1 TO DISK = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.APHRODITE\MSSQL\Backup\DBNAME1.BAK'
